@@ -43,11 +43,14 @@ div {
   }
   #container{
       clear: both;
+      float: left;
   }
 
   #navigator{
-      width: 25%;
+      width: 25%;      
       float: left;
+      border-style: none;
+      background-color:  #ecf0e5 ;
   }
 
   #main{
@@ -55,15 +58,14 @@ div {
       float: left;
   }
   #aside{
-      width: 25%;
+      width: 25%;     
       float: left;
+      border-style: none;      
+      background-color:  #ecf0e5;
   }
   #footer{
       clear: both;
+      float: left;
   }
-
-
-
-
 
 }
